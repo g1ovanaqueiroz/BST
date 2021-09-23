@@ -8,9 +8,9 @@ public class BSTNode<T extends Comparable<T>> extends BTNode<T> {
 		super();
 	}
 
-	//código abaixo é um exempo de uso do padrão Builder para construir
-	//objetos do tipo BSTNode sem usar construtor diretamente.
-	//o código cliente desse padrao, criando o no vazio seria:
+	//The code below is an example of using the Builder pattern to build
+	//objects of type BSTNode without using constructor directly.
+	//the client code of this pattern, creating the empty node would be:
 	// 		BSTNode<Integer> node = (BSTNode<Integer>) new BSTNode.Builder<Integer>()
 	//			.data(null)
 	//			.left(null)
